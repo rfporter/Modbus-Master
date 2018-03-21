@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="MB Master Errors" displayname="MB Master Errors">
+</nifamily>
+</nicomment>
+<nierror code="403485">
+Modbus TCP transaction ID mismatch
+</nierror>
+<nierror code="403484">
+Modbus TCP invalid protocol ID
+</nierror>
+<nierror code="403483">
+Invalid Modbus session
+</nierror>
+<nierror code="403482">
+Modbus CRC/LRC error
+</nierror>
+<nierror code="403481">
+Modbus slave ID mismatch
+</nierror>
+<nierror code="403471">
+Modbus exception 11: Gateway target device failed to respond
+</nierror>
+<nierror code="403470">
+Modbus exception 10: Gateway path unavailable
+</nierror>
+<nierror code="403468">
+Modbus exception 8: Memory parity error
+</nierror>
+<nierror code="403467">
+Modbus exception 7: Slave NACK
+</nierror>
+<nierror code="403466">
+Modbus exception 6: Slave device busy
+</nierror>
+<nierror code="403465">
+Modbus exception 5: Slave acknowledge
+</nierror>
+<nierror code="403464">
+Modbus exception 4: Slave device failure
+</nierror>
+<nierror code="403463">
+Modbus exception 3: Illegal data value
+</nierror>
+<nierror code="403462">
+Modbus exception 2: Illegal data address
+</nierror>
+<nierror code="403461">
+Modbus exception 1: Illegal function
+</nierror>
+</nidocument>
