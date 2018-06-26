@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-03-05 06:56:25" Creator="leonidas" Comments="" ID="58733660fd19311d416fc1ab73080241">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-06-26 01:07:09" Creator="leonidas" Comments="" ID="733e6e9ce1e4261971f9ba9cde5d306b">
   <Library_General_Settings>
     <Package_File_Name>MB_Master</Package_File_Name>
-    <Library_Version>1.3.1.4</Library_Version>
+    <Library_Version>1.3.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\MB Master\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\MB Master</Library_Output_Folder>
@@ -51,9 +51,8 @@ Supports sharing a Modbus session across multiple communication loops using a DV
       <Copyright/>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/286-plasmionique-modbus-master/</URL>
-      <Release_Notes>Re-Added accessor for VISA resource. Some might find this useful for dealing with certain USB to serial adapters.
-Added Modbus Comm Tester to tools menu.
-Added MB VISA lock functions to palette.</Release_Notes>
+      <Release_Notes>Added Device ID Objects to Modbus Comm Tester
+Implemented transaction IDs for Modbus TCP</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -504,7 +503,7 @@ Added MB VISA lock functions to palette.</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_Master\Read Device Identification.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F468BF886A5F747AE6E7A7BD6B7C1A94</GUID>
+      <GUID>266D59496E14EFC66149168F39089CD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -581,7 +580,7 @@ Added MB VISA lock functions to palette.</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_VISA_Lock\Dispose VISA Lock Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3A6F122368350D9497D02D9184D23672</GUID>
+      <GUID>854E5B00365FC070DFACBC4552710705</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
