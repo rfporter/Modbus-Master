@@ -46,7 +46,6 @@ Documentation:
 "<LabVIEW>\help\Plasmionique\MB_Master - User Guide.pdf"
 
 Known Issues:
-- Modbus TCP mode does not make use of Transaction ID. Transaction ID is expected to be 1 for all transactions.
 - Only MEI type 14 is properly supported in RTU mode.
 
 Acknowledgements:
@@ -81,6 +80,9 @@ v1.2.1: Re-worked VISA locking behavior for MB_Master_Serial
 v1.3.1: Re-Added accessor for VISA resource. Some might find this useful for dealing with certain USB to serial adapters.
 	Added Modbus Comm Tester to tools menu.
 	Added MB VISA lock functions to palette.
+v1.3.2: Added support for transaction IDs to TCP mode.
+	ADU contains PDU request and PDU response, which are available via property nodes.
+	Added device ID objects to Modbus Comm Tester
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
