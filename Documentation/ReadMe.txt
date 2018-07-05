@@ -1,4 +1,4 @@
-Plasmionique Modbus Master v1.3.1
+Plasmionique Modbus Master v1.3.2
 
 Copyright © 2016, Plasmionique Inc.
 All rights reserved.
