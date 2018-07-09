@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-03-05 06:56:25" Creator="leonidas" Comments="" ID="58733660fd19311d416fc1ab73080241">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-07-09 13:06:45" Creator="leonidas" Comments="" ID="40ce9cc5f2dbb327e12ee941ceefe435">
   <Library_General_Settings>
     <Package_File_Name>MB_Master</Package_File_Name>
-    <Library_Version>1.3.1.4</Library_Version>
+    <Library_Version>1.3.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\MB Master\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\MB Master</Library_Output_Folder>
@@ -47,13 +47,13 @@ It supports RTU, ASCII and TCP modes with the following function codes:
 0x2B/0x0E - Read Device Identification
 
 Supports sharing a COM port across multiple Modbus sessions using VISA locks (10 second timeout).
-Supports sharing a Modbus session across multiple communication loops using a DVR as a mutex.</Description>
+Supports sharing a Modbus session across multiple communication loops.</Description>
       <Copyright/>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/286-plasmionique-modbus-master/</URL>
-      <Release_Notes>Re-Added accessor for VISA resource. Some might find this useful for dealing with certain USB to serial adapters.
-Added Modbus Comm Tester to tools menu.
-Added MB VISA lock functions to palette.</Release_Notes>
+      <Release_Notes>Added Device ID Objects to Modbus Comm Tester
+Implemented transaction IDs for Modbus TCP
+Added PDU request and PDU response to ADU class</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -504,7 +504,7 @@ Added MB VISA lock functions to palette.</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_Master\Read Device Identification.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F468BF886A5F747AE6E7A7BD6B7C1A94</GUID>
+      <GUID>F92C64D0B7863D611A40F955589E2FC2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -581,7 +581,7 @@ Added MB VISA lock functions to palette.</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_VISA_Lock\Dispose VISA Lock Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3A6F122368350D9497D02D9184D23672</GUID>
+      <GUID>C3BDB1A638B2C60C4A82B464A262AC30</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
