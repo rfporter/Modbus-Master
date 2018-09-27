@@ -1,4 +1,4 @@
-Plasmionique Modbus Master v1.3.2
+Plasmionique Modbus Master v1.3.4
 
 Copyright © 2016, Plasmionique Inc.
 All rights reserved.
@@ -16,7 +16,6 @@ None
 Description:
 This package contains an open source Modbus master library for LabVIEW.
 This has been developed as a replacement for NI Modbus V1.2.1 and provide an open source alternative to the NI Modbus Community API.
-Benchmarking shows major performance increase when compared to NI Modbus V1.2.1 in ASCII and RTU modes.
 
 It supports RTU, ASCII and TCP modes with the following function codes:
 0x01 - Read Coils
@@ -83,16 +82,17 @@ v1.3.1: Re-Added accessor for VISA resource. Some might find this useful for dea
 v1.3.2: Added support for transaction IDs to TCP mode.
 	ADU contains PDU request and PDU response, which are available via property nodes.
 	Added device ID objects to Modbus Comm Tester
+v1.3.3: Fixed session valid property of MB Master TCP class
+v1.3.4: Updated documentation
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
 See link for a full description of the license.
 
 Support:
-If you have any problems with this code or want to suggest changes contact Porter via PM on lavag.org
+If you have any problems with this library or want to suggest changes contact Porter via PM on lavag.org or post your comment on the support forum: https://lavag.org/topic/19544-cr-plasmionique-modbus-master/
 
-Distribution:
-This code was downloaded from the LAVA Code Repository found at lavag.org
+The development source code is available on GitHub:  https://github.com/rfporter/Modbus-Master
 
 References:
 1) Modbus Application Protocol: http://www.modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf

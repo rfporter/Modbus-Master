@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-07-26 16:13:27" Creator="leonidas" Comments="" ID="a49dbf4444975e345788d731a5a05031">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-11-11 02:31:37" Modified_Date="2018-09-27 17:01:48" Creator="leonidas" Comments="" ID="204d78153a852fa7f0a717db6e26650e">
   <Library_General_Settings>
     <Package_File_Name>MB_Master</Package_File_Name>
-    <Library_Version>1.3.3.2</Library_Version>
+    <Library_Version>1.3.4.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\MB Master\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\MB Master</Library_Output_Folder>
@@ -30,7 +30,6 @@
       <One_Line_Description_Summary>Open source Modbus master library for LabVIEW</One_Line_Description_Summary>
       <Description>This package contains an open source Modbus Master library for LabVIEW.
 This has been developed to replace NI Modbus V1.2.1 and provide an open source alternative to the NI Modbus Community API.
-Benchmarking shows a major improvement in performance when compared to NI Modbus V1.2.1 in ASCII and RTU modes.
 
 It supports RTU, ASCII and TCP modes with the following function codes:
 0x01 - Read Coils
@@ -51,7 +50,7 @@ Supports sharing a Modbus session across multiple communication loops.</Descript
       <Copyright/>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/286-plasmionique-modbus-master/</URL>
-      <Release_Notes>Fixed session valid property in Modbus TCP class</Release_Notes>
+      <Release_Notes>Updated documentation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -107,6 +106,11 @@ Supports sharing a Modbus session across multiple communication loops.</Descript
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
       <Additional_Destination>
         <Name>Example Finder</Name>
         <LLB>false</LLB>
@@ -179,6 +183,9 @@ Supports sharing a Modbus session across multiple communication loops.</Descript
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Tools/Transaction ID Test.vi</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\builds\MB Master\Source Distribution\MB Master-EULA.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -502,7 +509,7 @@ Supports sharing a Modbus session across multiple communication loops.</Descript
         <Path>..\builds\MB Master\Source Distribution\MB_Master\Read Device Identification.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02BBD058B18697033DC11268C34740DE</GUID>
+      <GUID>2450DB0A525A5477C665302DA8AA9088</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -579,7 +586,7 @@ Supports sharing a Modbus session across multiple communication loops.</Descript
         <Path>..\builds\MB Master\Source Distribution\MB_VISA_Lock\Dispose VISA Lock Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFD3D3CF968295DE2E42C5472F768581</GUID>
+      <GUID>D106E0F88D6B26398FF2690418B77CAB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
