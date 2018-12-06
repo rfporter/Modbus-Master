@@ -1,2 +1,2 @@
-# Modbus-Master
+# Plasmionique-Modbus-Master
 Modbus master library for LabVIEW
