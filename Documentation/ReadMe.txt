@@ -84,6 +84,7 @@ v1.3.2: Added support for transaction IDs to TCP mode.
 	Added device ID objects to Modbus Comm Tester
 v1.3.3: Fixed session valid property of MB Master TCP class
 v1.3.4: Updated documentation
+v1.3.5: Improved RTU CRC calculation speed.
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
