@@ -1,4 +1,4 @@
-Plasmionique Modbus Master v1.3.4
+Plasmionique Modbus Master v1.3.5
 
 Copyright © 2016, Plasmionique Inc.
 All rights reserved.
@@ -15,7 +15,7 @@ None
 
 Description:
 This package contains an open source Modbus master library for LabVIEW.
-This has been developed as a replacement for NI Modbus V1.2.1 and provide an open source alternative to the NI Modbus Community API.
+This has been developed as a replacement for NI Modbus V1.2.1 and provide an open source alternative to the NI Modbus Community API (which is now also open source).
 
 It supports RTU, ASCII and TCP modes with the following function codes:
 0x01 - Read Coils
@@ -84,7 +84,9 @@ v1.3.2: Added support for transaction IDs to TCP mode.
 	Added device ID objects to Modbus Comm Tester
 v1.3.3: Fixed session valid property of MB Master TCP class
 v1.3.4: Updated documentation
-v1.3.5: Improved RTU CRC calculation speed.
+v1.3.5: Improved RTU CRC calculation speed
+	Added Slave ID input to "Open TCP Session.vi"
+	Updated documentation
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
