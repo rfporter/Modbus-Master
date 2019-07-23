@@ -92,7 +92,9 @@ Version History:
 	- Added device ID objects to Modbus Comm Tester
 - v1.3.3: Fixed session valid property of MB Master TCP class
 - v1.3.4: Updated documentation
-- v1.3.5: Improved RTU CRC calculation speed.
+- v1.3.5: Improved RTU CRC calculation speed
+	- Added Slave ID input to "Open TCP Session.vi"
+	- Updated documentation
 
 License:
 -----------
