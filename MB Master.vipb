@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-11 02:31:37" Modified_Date="2019-07-24 12:18:36" Creator="leonidas" Comments="" ID="d5f6bfaf30c536784932e09d49f14f7b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-11 02:31:37" Modified_Date="2019-07-29 14:48:05" Creator="leonidas" Comments="" ID="beb3a573e849537c38aa2ee23d4a626e">
   <Library_General_Settings>
     <Package_File_Name>MB_Master</Package_File_Name>
-    <Library_Version>1.3.5.3</Library_Version>
+    <Library_Version>1.3.5.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\MB Master\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\MB Master</Library_Output_Folder>
@@ -516,7 +516,7 @@ Updated documentation</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_Master\Read Device Identification.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C37BAFFE463FC1E1441526DAA1095B6</GUID>
+      <GUID>BC93AB6A408A2F8142F12B0335C0D1CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +593,7 @@ Updated documentation</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_VISA_Lock\Dispose VISA Lock Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B486DDA419C053CDB102B74BBBABFB27</GUID>
+      <GUID>8360D141AC9375DF05196283B2F73D1F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
