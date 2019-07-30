@@ -16,21 +16,21 @@ Dependencies:
 
 Description:
 -------------
-This package contains the Plasmionique Modbus Master library for LabVIEW.
+This package contains the Plasmionique Modbus Master library for LabVIEW. It implements the Modbus Application Protocol Specification V1.1b3 for communicating with Modbus devices (slaves) over Asynchronous Serial or TCP/IP networks. 
 
 It supports RTU, ASCII and TCP modes with the following function codes:
-0x01 - Read Coils
-0x02 - Read Discrete Inputs
-0x03 - Read Holding Registers
-0x04 - Read Input Registers
-0x05 - Write Single Coil
-0x06 - Write Single Register
-0x07 - Read Exception Status
-0x0F - Write Multiple Coils
-0x10 - Write Multiple Registers
-0x16 - Mask Write Register
-0x17 - Read/Write Multiple Registers
-0x2B/0x0E - Read Device Identification
+- 0x01 - Read Coils
+- 0x02 - Read Discrete Inputs
+- 0x03 - Read Holding Registers
+- 0x04 - Read Input Registers
+- 0x05 - Write Single Coil
+- 0x06 - Write Single Register
+- 0x07 - Read Exception Status
+- 0x0F - Write Multiple Coils
+- 0x10 - Write Multiple Registers
+- 0x16 - Mask Write Register
+- 0x17 - Read/Write Multiple Registers
+- 0x2B/0x0E - Read Device Identification
 
 Other features include:
 - Sharing a COM port across multiple Modbus sessions using VISA locks (10 second timeout).
