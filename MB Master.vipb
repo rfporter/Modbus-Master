@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-11 02:31:37" Modified_Date="2019-07-29 14:48:05" Creator="leonidas" Comments="" ID="beb3a573e849537c38aa2ee23d4a626e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-11 02:31:37" Modified_Date="2022-10-11 23:51:35" Creator="leonidas" Comments="" ID="c6d461bb208470ebcea7743857d5cc1d">
   <Library_General_Settings>
     <Package_File_Name>MB_Master</Package_File_Name>
-    <Library_Version>1.3.5.4</Library_Version>
+    <Library_Version>1.3.6.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\MB Master\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\MB Master</Library_Output_Folder>
@@ -55,9 +55,7 @@ This package requires LabVIEW 2012 (or newer) and NI-VISA 5.4 (or newer).</Descr
       <Copyright/>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/286-plasmionique-modbus-master/</URL>
-      <Release_Notes>Improved RTU CRC calculation speed
-Added Slave ID input to "Open TCP Session.vi"
-Updated documentation</Release_Notes>
+      <Release_Notes>Modified launcher of TCP manager in "Open TCP Session.vi" to block root loop only on first call. </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -516,7 +514,7 @@ Updated documentation</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_Master\Read Device Identification.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC93AB6A408A2F8142F12B0335C0D1CB</GUID>
+      <GUID>835B440D4F1F208AF3455C3BDAEC2DA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +591,7 @@ Updated documentation</Release_Notes>
         <Path>..\builds\MB Master\Source Distribution\MB_VISA_Lock\Dispose VISA Lock Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8360D141AC9375DF05196283B2F73D1F</GUID>
+      <GUID>9992E35CE793862B0093C52FA507CB9F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

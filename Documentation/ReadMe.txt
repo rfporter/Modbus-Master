@@ -1,4 +1,4 @@
-Plasmionique Modbus Master v1.3.5
+Plasmionique Modbus Master v1.3.6
 
 Copyright © 2016-2019, Plasmionique Inc.
 All rights reserved.
@@ -90,6 +90,7 @@ v1.3.4: Updated documentation
 v1.3.5: Improved RTU CRC calculation speed
 	Added Slave ID input to "Open TCP Session.vi"
 	Updated documentation
+v1.3.6: Modified launcher of TCP manager in "Open TCP Session.vi" to block root loop only on first call. 
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
